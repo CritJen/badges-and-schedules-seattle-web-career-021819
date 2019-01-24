@@ -16,3 +16,12 @@ def assign_rooms(array)
   end
   new_array
 end
+
+def printer (array)
+  array.each do |name|
+    puts badge_maker(name)
+  end
+  array.each_with_index do |name, index|
+    puts assign_rooms(name, index)
+  end
+end
