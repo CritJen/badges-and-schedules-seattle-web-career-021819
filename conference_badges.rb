@@ -9,3 +9,5 @@ def batch_badge_creator(array)
     new_array.push(badge_maker(name))
   end
 end
+
+puts new_array
